@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    height: 35vh;
+  }
+  .wrapper .car{
+      background-color: bisque;
+      width: 1000px;
+      display: flex;
+     
+      padding: 50px;
+      position: relative;
+      justify-content: space-between;
+      border-radius: 100px 20px 20px 100px ;
+  
+  }
+  .car .content{
+      display: flex;
+      align-items: center;
+  
+  }
+  .wrapper .car .img{
+  height: 90px;
+  width: 90px;
+  position: absolute;
+  left: -5px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0 ,0.2);
+  }
+  .car .img img {
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+  
+  }
+  .car .details{
+      margin-left: 50px;
+  }
+  .details span {
+      font-weight: 600;
+      font-size: 20px;
+  
+  }
+  .car h4 {
+      text-decoration: none;
+      padding: 7px 18px;
+      border-radius: 25px;
+      color: #050505;
+    
+      
+  }
+  a{
+      text-decoration: none;
+      color: #050505;
+  }
+  .car:hover {
+      transform: translateY(-2px)
+  }

@@ -1,0 +1,104 @@
+body{
+    background: url(back.jpg) ;
+}
+.barre{
+    background: #0a0707;
+    width: 90px;
+    height: 5px;
+    border-radius: 2px;
+    margin: 0 auto;
+}
+.barre2{
+    background: #0a0707;
+    width: 750px;
+    height: 6px;
+    border-radius: 2px;
+    margin: 0 auto;
+}
+.formulaire{
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+
+    align-items: center;
+
+}
+.formulaire form{
+width: 90%;
+height: 100%;
+padding: 30px;
+border-radius: 25px;
+margin: 0 auto;
+display: table;
+box-shadow: inset 0 0 2px rgb(17, 17, 16);
+background-color:beige;
+}
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid #888;
+    text-shadow: 2px 0 0 rgb(240, 165, 26) ;
+}
+.a{
+    text-align: center;
+    text-transform: uppercase;
+    
+    text-shadow: 1px 0 0 rgb(234, 8, 8) ;
+}
+
+label {
+    font-size: 19px;
+}
+.formulaire .form1 , .formulaire .form2
+{width: 40%;
+display: inline-block;
+margin: 50px;
+}
+.input {
+width: 100%;
+height: 30px;
+outline: none;
+border-radius: 6px;
+border: 1px solid #e6e6e6;
+}
+.input:hover
+{
+    border: 2px solid #235a81;
+    font-weight: bold;
+}
+.buTTon input
+{width: 15%;
+padding: 8px;
+align-items: center;
+background: #444;
+color: #fff;
+font-size: 19px;
+border: none;
+border-radius: 10px;
+transition: all .4s ease-in;
+margin: 0 auto;
+display: table;
+cursor: pointer;
+
+}
+.buTTon input:hover
+{
+    background:#888 ;
+    transition: all .4s ease;
+
+}
+.buTTon a
+{width: 15%;
+padding: 8px;
+align-items: center;
+background: #444;
+color: #fff;
+font-size: 19px;
+border: none;
+border-radius: 10px;
+transition: all .4s ease-in;
+margin: 0 auto;
+display: table;
+cursor: pointer;
+
+}
